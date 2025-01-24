@@ -24,7 +24,6 @@ language = 'en'
 source_encoding = 'utf-8'
 source_suffix = '.rst'
 today_fmt = '%d.%m.%Y'
-html_show_sphinx = 'False'
 
 # -- General configuration ---------------------------------------------------
 
@@ -105,6 +104,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_show_sphinx = False
 #html_favicon = '_static/images/favicon.ico'
 html_baseurl = 'https://kb.ksomov.ru'
 html_title = 'Ёжъ'
