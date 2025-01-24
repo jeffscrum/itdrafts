@@ -24,6 +24,7 @@ language = 'en'
 source_encoding = 'utf-8'
 source_suffix = '.rst'
 today_fmt = '%d.%m.%Y'
+html_show_sphinx = 'False'
 
 # -- General configuration ---------------------------------------------------
 
